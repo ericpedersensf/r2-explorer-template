@@ -8,6 +8,14 @@
 		"html_handling": "auto-trailing-slash",
 		"not_found_handling": "single-page-application"
 	},
+	{
+  		"build": {
+    		"command": "your-build-command",
+    		"alias": {
+     			"original-path": "new-path"
+    		}
+		}
+	}
 	"r2_buckets": [
 		{
 			"binding": "bucket",
